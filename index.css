@@ -1,0 +1,273 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'karla'sans-serif;
+}
+.first{
+    height: 34vh;
+    width: 100vw;
+    padding: 30px;
+    background-color: white;
+
+}
+.middle{
+    height: 34vh;
+    width: 100vw;
+    padding: 30px;
+    background-color: rgb(32, 178, 170);
+    color: white;
+    
+    
+    
+
+}
+.last{
+    height: 34vh;
+    width:100vw;
+    padding: 30px;
+    background-color: hsl(179,47%,51%);
+    color: white;
+}
+#join{
+    color: rgb(32, 178, 130);   
+    
+                               
+}
+body{
+    font-family: 'karla', sans-serif;
+    
+    font-size: medium;
+    
+}
+#day{
+    padding-top: 5px;
+    color: hsl(69, 53%, 55%);
+    font-size: large;
+}
+#gain{
+    padding-top: 10px;
+    color: rgba(194, 177, 177, 0.71);
+    line-height: 5vw;
+    /* font-weight: bolder; */
+    font-size: small;
+    
+}
+span{
+    font-size: xx-large;
+}
+.button{
+    width: 200px;
+    height: 40px;
+    /* padding: 5px, 5px ,5px, 0px; */
+    background-color:hsl(71, 72%, 53%);
+    border-radius: 5px;
+    border:0px solid hsl(71, 72%, 53%);
+    font-size: medium;
+    text-align: center;
+    color: white;
+}
+.span{
+    padding-top: 5px;
+    font-size: small;
+}
+
+.expert{
+    padding-top: 15px;
+    font-size: small;
+    
+}
+.month{
+    font-size: large;
+}
+@media only screen and (min-width:768px){
+    *{
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+        /* font-size: x-large; */
+    }
+
+    body{
+        font-size: x-large;
+        font-family: 'karla'sans-serif;
+        
+        
+    }
+
+    .first{
+        height: 50vh;
+        width: 100vw;
+        padding: 40px;
+
+    }
+    .middle{
+        height: 50vh;
+        width: 50%;
+        float: left;
+    }
+    .last{
+        height: 50vh;
+        width: 50%;
+        float: right;
+    }
+    #join{
+        padding: 30px 0px 20px 20px;
+        font-size: 30px;
+    }
+    #day{
+        font-size: 20px;
+        padding-left: 20px;
+    }
+    #gain{
+        line-height: normal;
+        font-size: 17px;
+        padding-left: 20px;
+    }
+    #month{
+        font-size: 25px;
+        padding-left: 20px;
+    }
+    #why{
+        font-size: 25px;
+        padding-left: 20px;
+    }
+    .span{
+        font-size: 17px;
+        padding-left: 20px;
+    }
+    .expert{
+        font-size: 17px;
+        padding-left: 20px;
+        /* line-height: 5px; */
+    }
+    
+}
+  
+  @media only screen and (min-width:1000px){
+    *{
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+        /* font-size: x-large; */
+    }
+
+    body{
+        font-size: xx-large;
+        font-family: 'karla'sans-serif;
+        
+        
+    }
+
+    .first{
+        height: 50vh;
+        width: 100vw;
+        padding: 50px;
+
+    }
+    .middle{
+        height: 50vh;
+        width: 50%;
+        float: left;
+    }
+    .last{
+        height: 50vh;
+        width: 50%;
+        float: right;
+    }
+    #join{
+        padding: 30px 0px 20px 10px;
+        font-size: 35px;
+    }
+    #day{
+        font-size: 23px;
+        padding-left: 10px;
+    }
+    #gain{
+        line-height: normal;
+        font-size: 20px;
+        padding-left: 10px;
+    }
+    #month{
+        font-size: 30px;
+        padding-left: 20px;
+    }
+    #why{
+        font-size: 30px;
+        padding-left: 20px;
+    }
+    .span{
+        font-size: 20px;
+        padding-left: 20px;
+    }
+    .expert{
+        font-size: 20px;
+        padding-left: 20px;
+        /* line-height: 5px; */
+    }
+    
+
+  }
+  @media only screen and (min-width:1440){
+    *{
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+        /* font-size: x-large; */
+    }
+
+    body{
+        font-size: xx-large;
+        font-family: 'karla'sans-serif;
+        
+        
+    }
+
+    .first{
+        height: 50vh;
+        width: 100vw;
+        padding: 50px;
+
+    }
+    .middle{
+        height: 50vh;
+        width: 50%;
+        float: left;
+    }
+    .last{
+        height: 50vh;
+        width: 50%;
+        float: right;
+    }
+    #join{
+        padding: 30px 0px 20px 20px;
+        font-size: 35px;
+    }
+    #day{
+        font-size: 25px;
+        padding-left: 20px;
+    }
+    #gain{
+        line-height: normal;
+        font-size: 23px;
+        padding-left: 30px;
+    }
+    #month{
+        font-size: 35px;
+        padding-left: 30px;
+    }
+    #why{
+        font-size: 35px;
+        padding-left: 30px;
+    }
+    .sis{
+        font-size: 23px;
+        padding-left: 30px;
+    }
+    .expert{
+        font-size: 23px;
+        padding-left: 30px;
+        
+    }
+    
+}
